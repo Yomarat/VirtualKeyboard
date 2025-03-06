@@ -8,10 +8,10 @@ namespace VirtualKeyboard
         public Toggle vToggle { get; set; } = new Toggle((SButton)0, new Rect(Constants.TargetPlatform == GamePlatform.Android ? 96 : 36, 12, 64, 64));
         public VirtualButton[] Buttons { get; set; } = new VirtualButton[4]
         {
-              new VirtualButton((SButton) 80, 0.5f),
-              new VirtualButton((SButton) 73, 0.5f),
-              new VirtualButton((SButton) 79, 0.5f),
-              new VirtualButton((SButton) 81, 0.5f)
+              new VirtualButton((SButton) 116, 0.5f),
+              new VirtualButton((SButton) 117, 0.5f),
+              new VirtualButton((SButton) 74, 0.5f),
+              new VirtualButton((SButton) 73, 0.5f)
         };
         internal class Rect
         {
